@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes da Receita</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="index.html" class="btn-voltar">← Voltar</a>
+   <!-- Link para voltar à página inicial (index.html). 
+       A classe "btn-voltar" é usada para aplicar estilo via CSS -->
+
+  <section id="detalhes"></section>
+     <!-- Seção onde os detalhes da receita serão inseridos dinamicamente via JavaScript.
+       O script 'detalhes.js' usa este elemento para mostrar as informações da receita. -->
+
+  <script src="js/dados.js"></script>
+    <!-- Script com os dados locais das receitas (array de objetos com nome, ingredientes, etc.) -->
+
+  <script src="js/detalhes.js"></script>
+    <!-- Script responsável por exibir a receita selecionada (usa a URL para decidir se carrega local ou da API) -->
+</body>
+</html
